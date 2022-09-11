@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>facebook</title>
+	<defs>
+		<image  width="50" height="49" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAxCAMAAACvdQotAAAAAXNSR0IB2cksfwAAADZQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt3ZocgAAABJ0Uk5TADBAEFCQv/+gIGDw4HCAwNCwr79d1wAAAUlJREFUeJyd1tFigyAMBVANIGhb0/7/zw7dQCA3UJfHyBEJCEwTjploVh7JMNYt/i8WZ80QUPBNBOoCu7Tg7MuqYIXgRCsW20MT3j82JMQgmiEJYAYimrZ2QyH6+UI0ZkMtnuFFMfadU6aowQpqVdSIcu6qNZiPdzETmfglpSzoo5y7i3ird1LNXEEWkckjnxTiSSvwVc411uzVPjFS5O8CC9Xgwfv0i4BRHgVwOkEf4GKeQZ7UwniOeZDuEf8vAtM9Mt8n1KYnEO4+4YZMY/JsW4yJaMEjUn86i8EBUi9CJzKA7FWDY1mitdeZl3MD/NwhH+2BTgjVvUsYVrFL8okm/jKNpE7ABquQckNst3GFVBti+IZ0DxhIxNEXRkQelpUBBIjqEBcEH+Kx1qwRVq4KRxtGhPu3mN9rT0kG154j4uUqvZbYgRvPD4+kKaWYugvyAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #FFFFFF } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

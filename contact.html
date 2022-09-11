@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/logo-green.svg">
+</head>
+
+<body class="font-poppins">
+
+    <div id="main-container">
+
+
+        <nav class="px-12 py-6 rounded mb-14">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+
+                <div class="stroke-primary w-8">
+                    <a href="./index.html">
+                        <img src="assets/logo-green.svg" alt="logo">
+                    </a>
+                </div>
+
+                <button id="triggerEl" data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex justify-center items-center ml-3 text-primary rounded-lg" aria-controls="navbar-solid-bg" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+              </button>
+
+                <div id="targetEl" class="hidden w-full lg:block lg:w-auto" id="navbar-solid-bg">
+                    <ul class="flex flex-col mt-4 rounded-lg lg:flex-row">
+                        <li>
+                            <a href="./contact.html/#about-me" class="block py-2 pr-4 pl-3 text-primary hover:text-primary-darker lg:text-3xl">Par mani</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html/#projects" class="block py-2 pr-4 pl-3 text-primary hover:text-primary-darker lg:text-3xl">Projekti</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-primary hover:text-primary-darker lg:text-3xl">Kontakti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="px-12 py-6 text-center mb-16">
+
+            <h1 class="text-3xl font-bold mb-6">Ir padomā projekts?</h1>
+
+            <p class="text-sm">Aizpildi formu, lai es vairāk uzzinātu par tavu ideju.</p>
+
+        </div>
+
+
+        <div class="px-12 py-6 w-full">
+            <form>
+
+                <div class="lg:flex justify-around gap-10">
+                    <div class="mb-6 lg:w-full">
+                        <label for="name" class="block mb-2 text-sm font-bold text-gray-900 lg:text-xl">Vārds</label>
+                        <input type="text" id="first_name" class="block w-full p-2.5 bg-gray-200 border rounded-lg border-gray-300 placeholder-black placeholder-opacity-50 text-black text-sm focus:bg-gray-form focus:placeholder-black focus:placeholder-opacity-0" placeholder="Jānis Bērziņš"
+                            required>
+                    </div>
+
+                    <div class="mb-6 lg:w-full">
+                        <label for="email" class="block mb-2 text-sm font-bold text-gray-900 lg:text-xl">Epasts</label>
+                        <input type="email" id="email" class="block w-full p-2.5 bg-gray-200 border rounded-lg border-gray-300 placeholder-black placeholder-opacity-50 text-black text-sm focus:bg-gray-form focus:placeholder-black focus:placeholder-opacity-0" placeholder="janis.berzins@gmail.com"
+                            required>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <label for="phone" class="block mb-2 text-sm font-bold text-gray-900">Telefona numurs</label>
+                    <input type="tel" id="phone" class="block w-full p-2.5 bg-gray-200 border rounded-lg border-gray-300 placeholder-black placeholder-opacity-50 text-black text-sm focus:bg-gray-form focus:placeholder-black focus:placeholder-opacity-0" placeholder="21234567"
+                        pattern="[2]{1}-[0-9]{7}" required>
+                </div>
+                <div class="mb-6">
+
+                    <label for="message" class="block mb-2 text-sm font-bold text-gray-900 lg:text-xl">Projekta detaļas</label>
+                    <textarea id="message" cols="43" rows="10" class="block w-full p-2.5 bg-gray-200 border rounded-lg border-gray-300 placeholder-black placeholder-opacity-50 text-black text-sm focus:bg-gray-form focus:placeholder-black focus:placeholder-opacity-0" placeholder="Sveiki!&#10;Es vēlētos izveidot mājaslapu priekš sava privātā biznesa. Vai Jūs varat man palīdzēt?&#10;Paldies!"></textarea>
+                </div>
+
+                <div class="lg:flex justify-around gap-10">
+                    <div class="mb-6 lg:w-full">
+                        <label for="budget" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 lg:text-xl">Budžets</label>
+                        <input type="email" id="email" class="block w-full p-2.5 bg-gray-200 border rounded-lg border-gray-300 placeholder-black placeholder-opacity-50 text-black text-sm focus:bg-gray-form focus:placeholder-black focus:placeholder-opacity-0" placeholder="< 1000 eur"
+                            required>
+                    </div>
+                    <div class="mb-6 lg:w-full">
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 lg:text-xl">Laiks</label>
+                        <input type="email" id="email" class="block w-full p-2.5 bg-gray-200 border rounded-lg border-gray-300 placeholder-black placeholder-opacity-50 text-black text-sm focus:bg-gray-form focus:placeholder-black focus:placeholder-opacity-0" placeholder="3 - 4 mēneši"
+                            required>
+                    </div>
+                </div>
+
+                <button type="submit" class="text-white bg-primary hover:bg-primary-darker font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center lg:w-full lg:rounded-2xl lg:py-4">Nosūtīt ziņu</button>
+            </form>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+Media query:
+
+1. Izveidot responsīvu dizainu md (768 px) lielumam.

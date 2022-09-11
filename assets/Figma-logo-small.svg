@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 53" width="35" height="53">
+	<title>Figma-logo-svg</title>
+	<style>
+		.s0 { fill: #0acf83 } 
+		.s1 { fill: #a259ff } 
+		.s2 { fill: #f24e1e } 
+		.s3 { fill: #ff7262 } 
+		.s4 { fill: #1abcfe } 
+	</style>
+	<path id="path0_fill" class="s0" d="m0 44.2c0-4.9 3.9-8.9 8.8-8.9h8.7v8.9c0 4.8-3.9 8.8-8.8 8.8-4.8 0-8.7-4-8.7-8.8z"/>
+	<path id="path1_fill" class="s1" d="m0 26.5c0-4.9 3.9-8.8 8.8-8.8h8.7v17.6h-8.8c-4.8 0-8.7-3.9-8.7-8.8z"/>
+	<path id="path1_fill_1_" class="s2" d="m0 8.8c0-4.8 3.9-8.8 8.8-8.8h8.7v17.7h-8.8c-4.8 0-8.7-4-8.7-8.9z"/>
+	<path id="path2_fill" class="s3" d="m17.5 0h8.8c4.8 0 8.7 4 8.7 8.8 0 4.9-3.9 8.9-8.8 8.9h-8.7z"/>
+	<path id="path3_fill" class="s4" d="m26.3 35.3c-4.9 0-8.8-3.9-8.8-8.8 0-4.9 3.9-8.8 8.8-8.8 4.8 0 8.7 3.9 8.7 8.8 0 4.9-3.9 8.8-8.8 8.8z"/>
+</svg>
