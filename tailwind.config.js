@@ -1,7 +1,9 @@
 const colors = require('tailwindcss/colors')
 
+// content: ['./build/*.html', './build/*.js']
+
 module.exports = {
-    content: ['./src/**/*.{html,js}'],
+    content: ['./*.html', '·/build/js/*.js'],
     purge: [],
     presets: [],
     darkMode: false, // or 'media' or 'class'
@@ -22,6 +24,10 @@ module.exports = {
 
             },
         },
+        animation: {
+            'open-menu': 'open-menu 0.5s ease-in-out forwards', 
+        },
+
         screens: {
             sm: '360px',
             md: '600px',

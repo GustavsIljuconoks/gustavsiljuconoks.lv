@@ -1,24 +1,32 @@
-const targetEl = document.getElementById('targetEl');
+// const menubtn = document.getElementById('targetEl');
+// const navul = document.getElementById('triggerEl');
+// let openMenu = false;
 
-const triggerEl = document.getElementById('triggerEl');
+// menubtn.addEventListener( "click", () => {
+//     if (!openMenu) {
+//         menubtn.classList.add('open');
+//         navul.classList.add('flex');
+//         openMenu = true;
+//     } else {
+//         menubtn.classList.remove('open');
+//         navul.classList.remove('flex');
+//         openMenu = false
+//     }
 
-const options = {
-    triggerEl: triggerEl,
-    onCollapse: () => {
-        console.log("element has been collapsed")
-    },
+// });
 
-    onExpand: () => {
-        console.log("element has been expanded")
-    },
+const initApp = () => {
+    const hamburgerBtn = document.getElementById('hamburger-button')
+    const mobileMenu = document.getElementById('mobile-menu')
 
-    onToogle: () => {
-        console.log("element has been toogled")
+    const toggleMenu = () => {
+        mobileMenu.classList.toggle('hidden')
+        mobileMenu.classList.toggle('flex')
+        hamburgerBtn.classList.toggle('toggle-btn')
     }
-};
 
-const collapse = new collapse(targetEl, options);
+    hamburgerBtn.addEventListener('click', toggleMenu)
+    mobileMenu.addEventListener('click', toggleMenu)
+}
 
-collapse.expand();
-collapse.collapse();
-collapse.toogle();
+document.addEventListener('DOMContentLoaded', initApp)
